@@ -6,18 +6,23 @@
         {
             "name": "Nick G. Lavrik",
             "email": "nick.lavrik@gmail.com"
+        },
+        {
+            "name": "Creative WebMedia Pvt. Ltd",
+            "email": "office@creative-media.com.ua"
         }
     ],
     "require": {
         "php": ">=5.4",
         "symfony/symfony": "@stable",
-        "phppond/doctrine-collections": "@stable"
+        "phppond/doctrine-collections": "@stable",
+        "phppond/doctrine-filters": "@stable"
     },
     "require-dev": {
         "phpunit/phpunit": "@stable"
     },
     "autoload": {
-        "psr-0": { "PhpPondBundle\\": "src/" }
+        "psr-4": { "PhpPondBundle\\": "src/" }
     },
     "extra": {
         "branch-alias": {
